@@ -10,7 +10,7 @@ This project provides a FastAPI-based inference service for real-time phishing d
 
 ### Run the API
 
-uvicorn src.api:app --reload
+uvicorn src.predict_api:app --reload
 
 The API will be available at:
 http://127.0.0.1:8000
